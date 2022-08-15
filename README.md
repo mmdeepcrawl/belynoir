@@ -8,8 +8,8 @@
 1. Retrieve all the packages with `npm install`
 2. Place the BigQuery keys inside the `apiKeys` folder
 3. Create a `.env` file with the same keys as `.env.example`
- 3.1 `PORT`: Port where the server is going to run.
- 3.2 `GOOGLE_APPLICATION_CREDENTIALS`: Relative path of your BigQuery keys file.
+  * `PORT`: Port where the server is going to run.
+  * `GOOGLE_APPLICATION_CREDENTIALS`: Relative path of your BigQuery keys file.
 4. Run `npx ts-node app.ts`
 
 ### Belynoir frontend
