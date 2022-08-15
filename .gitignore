@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Key files
+apikeys/*.json
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -36,6 +39,10 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+
+
+# Runtime data
+.idea/
 
 # Dependency directories
 node_modules/
@@ -102,3 +109,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+
