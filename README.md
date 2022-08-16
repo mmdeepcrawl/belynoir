@@ -14,4 +14,4 @@
 
 ### Belynoir frontend
 1. Retrieve all the packages with npm install
-2. Run `react-scripts start`
+2. Run `react-scripts start` // OR `npm start`?
